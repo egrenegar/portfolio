@@ -1,5 +1,13 @@
 .navbar {
-    padding: 1rem;
-    background-color: peachpuff;
+    padding: 0 .5rem;
+    background-color:#fff5e5;
     color: white;
+}
+
+.logo-div {
+    margin: .5rem 1rem .2rem;
+}
+
+.navbar-item > a {
+    color: black;
 }
