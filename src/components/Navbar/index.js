@@ -25,7 +25,7 @@ function Navigation() {
                 </div>
                 <div className="navbar-item">
                     <a>
-                        Test
+                        Contact
                     </a>
                 </div>
             </div>
