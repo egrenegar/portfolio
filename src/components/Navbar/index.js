@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import 'react-bulma-components/dist/react-bulma-components.min.css';
 import styles from './Navbar.css';
 import logo from '../../img/PORTFOLIO_LOGO.png';
 
@@ -10,23 +9,23 @@ export default function Navigation() {
     return (
         <Navbar style={styles.navbar}>
             <div className='logo-div'>
-                <a href="https://github.com/egrenegar/egrenegar.github.io">
+                <Link to='/'>
                     <img src={logo} alt='brand' width='200'/>
-                </a>
+                </Link>
             </div>
-            <div className="navbar-end">
-                <div className="navbar-item">
-                    <Link to="/about">
+            <div className='navbar-end'>
+                <div className='navbar-item'>
+                    <Link to='/about'>
                         About
                     </Link>
                 </div>
-                <div className="navbar-item">
-                    <Link to="/projects">
+                <div className='navbar-item'>
+                    <Link to='/projects'>
                         Projects
                     </Link>
                 </div>
-                <div className="navbar-item">
-                    <Link to="/contact">
+                <div className='navbar-item'>
+                    <Link to='/contact'>
                         Contact
                     </Link>
                 </div>
