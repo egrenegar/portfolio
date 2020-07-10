@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import 'react-bulma-components/dist/react-bulma-components.min.css';
-import styles from './navbar.css';
+import styles from './Navbar.css';
 import logo from '../../img/PORTFOLIO_LOGO.png';
 
 import { Navbar } from 'react-bulma-components';
