@@ -1,11 +1,12 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import 'react-bulma-components/dist/react-bulma-components.min.css';
 import styles from './navbar.css';
 import logo from '../../img/PORTFOLIO_LOGO.png';
 
 import { Navbar } from 'react-bulma-components';
 
-function Navigation() {
+export default function Navigation() {
     return (
         <Navbar style={styles.navbar}>
             <div className='logo-div'>
@@ -15,24 +16,22 @@ function Navigation() {
             </div>
             <div className="navbar-end">
                 <div className="navbar-item">
-                    <a>
+                    <Link to="/about">
                         About
-                    </a>
+                    </Link>
                 </div>
                 <div className="navbar-item">
-                    <a>
+                    <Link to="/projects">
                         Projects
-                    </a>
+                    </Link>
                 </div>
                 <div className="navbar-item">
-                    <a>
+                    <Link to="/contact">
                         Contact
-                    </a>
+                    </Link>
                 </div>
             </div>
         </Navbar>
     );
 
-}
-
-export default Navigation;
+};
