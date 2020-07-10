@@ -1,11 +1,12 @@
 import React from 'react';
+import { Columns } from 'react-bulma-components';
 
 export default function Heading(props) {
     return(
-        <div className="columns has-text-centered">
-            <div className="column">
+        <Columns className="has-text-centered">
+            <Columns.Column>
                 {props.children}
-            </div>
-        </div>
+            </Columns.Column>
+        </Columns>
     );
 };
