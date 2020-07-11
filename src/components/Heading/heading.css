@@ -1,0 +1,13 @@
+.portfolio-heading {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 3rem;
+    padding-top: 6rem;
+}
+
+@media screen and (max-width: 500px) {
+    .portfolio-heading {
+        font-size: 2rem;
+        padding-top: 3rem;
+    }
+}
