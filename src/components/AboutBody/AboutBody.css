@@ -1,15 +1,16 @@
-* {
-    font-family: 'Josefin Sans', sans-serif;
-}
-
 .text {
     padding-bottom: 1em;
-    
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.3rem;
     font-weight: 200;
 }
 
 .image {
-    width: 250px;
+    width: 275px;
+}
+
+.contact {
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .contact > span {
