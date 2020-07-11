@@ -1,0 +1,11 @@
+.text {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.icon {
+    color: black;
+}
+
+.icon:hover {
+    color: rgb(241, 136, 194);
+}
