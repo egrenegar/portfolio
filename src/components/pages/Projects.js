@@ -1,11 +1,11 @@
 import React from 'react';
+import Heading from '../Heading/index';
 
 function About() {
     return (
-        <div>
+        <Heading>
             <h2>Projects coming soon!</h2>
-         </div>
-       
+        </Heading>
     )
 }
 
