@@ -6,7 +6,7 @@
 }
 
 .image {
-    width: 275px;
+    width: 25vw;
 }
 
 .contact {
@@ -15,4 +15,46 @@
 
 .contact > span {
     font-weight: 600;
+}
+
+@media screen and (max-width: 768px) {
+    .reverse-columns {
+      flex-direction: column-reverse;
+      display: flex;
+    }
+
+    .text {
+        font-size: 1rem;
+    }
+
+    .flex-item-2 {
+        margin: 0 auto;
+        width: 60%;
+    }
+
+    .image {
+        width: 300px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .reverse-columns {
+      flex-direction: column-reverse;
+      display: flex;
+    }
+
+    .text {
+        font-size: 1rem;
+    }
+
+    .flex-item-2 {
+        margin: 0 auto;
+        width: 85%;
+    }
+
+    .image {
+        width: 75vw;
+        margin: 0 auto;
+    }
 }
