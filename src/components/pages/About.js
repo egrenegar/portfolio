@@ -3,7 +3,7 @@ import Heading from '../Heading/index';
 import AboutBody from '../AboutBody/index';
 import { Container} from 'react-bulma-components';
 
-function About() {
+export default function About() {
     return (
         <Container>
             <Heading>
@@ -12,6 +12,4 @@ function About() {
             <AboutBody/>
         </Container>
     )
-}
-
-export default About;
+};
