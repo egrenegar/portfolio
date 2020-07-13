@@ -5,16 +5,12 @@
     font-weight: 200;
 }
 
-.image {
+.me {
     width: 25vw;
 }
 
 .contact {
     font-family: 'Josefin Sans', sans-serif;
-}
-
-.contact > span {
-    font-weight: 600;
 }
 
 @media screen and (max-width: 768px) {
@@ -32,7 +28,7 @@
         width: 60%;
     }
 
-    .image {
+    .me {
         width: 300px;
         margin: 0 auto;
     }
@@ -40,8 +36,8 @@
 
 @media screen and (max-width: 500px) {
     .reverse-columns {
-      flex-direction: column-reverse;
-      display: flex;
+        flex-direction: column-reverse;
+        display: flex;
     }
 
     .text {
@@ -53,8 +49,7 @@
         width: 85%;
     }
 
-    .image {
+    .me {
         width: 75vw;
-        margin: 0 auto;
     }
 }
