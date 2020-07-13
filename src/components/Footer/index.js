@@ -7,7 +7,7 @@ export default function Footer() {
         <Columns className='has-text-centered'>
             <Columns.Column>
                 <div className='my-footer'>
-                    Copyright 2020 Emily Renegar
+                &copy; 2020 Emily Renegar
                 </div>
             </Columns.Column>
         </Columns>
