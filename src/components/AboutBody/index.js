@@ -12,7 +12,7 @@ export default function AboutBody() {
                         size: 3,
                     }}
                     className='flex-item-1'>
-                    <img className='image' alt='Emily Renegar' src={image} />
+                    <img className='image me' alt='Emily Renegar' src={image} />
                 </Columns.Column>
                 <Columns.Column
                     desktop={{
@@ -33,11 +33,11 @@ export default function AboutBody() {
             </Columns>
             <Columns className='has-text-centered'>
                 <Columns.Column>
-                    <p className='contact'>
-                        <span>Contact:</span> egrenegar@gmail.com
-                        <span><a href='https://github.com/egrenegar' rel='noopener noreferrer' target='_blank'><i class="fab fa-github"></i></a></span>
-                        <span><a href='https://www.linkedin.com/in/emily-renegar' rel='noopener noreferrer' target='_blank'><i class="fab fa-linkedin-in"></i></a></span>
-                    </p>
+                    <div className='contact'>
+                        <p><span>Contact:</span> egrenegar@gmail.com</p>
+                        <span><a href='https://github.com/egrenegar' rel='noopener noreferrer' target='_blank'><i className='fab fa-github icon'></i></a></span>
+                        <span><a href='https://www.linkedin.com/in/emily-renegar' rel='noopener noreferrer' target='_blank'><i className='fab fa-linkedin-in icon'></i></a></span>
+                    </div>
                 </Columns.Column>
             </Columns>
         </Fragment>
