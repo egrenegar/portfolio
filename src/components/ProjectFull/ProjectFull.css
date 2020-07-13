@@ -1,0 +1,9 @@
+.project-photo {
+    width: 45vw;
+    margin: 2.5rem auto 1.5rem;
+    border-radius: 50px;
+}
+
+.project-photo:hover {
+    opacity: 25%;
+}
