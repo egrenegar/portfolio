@@ -20,13 +20,13 @@ export default function AboutBody() {
                     }}
                     className='flex-item-2'
                 >
-                    <p className='text'>
+                    <p className='about-text'>
                         My name is Emily. I'm a Front-End Developer whose interest in coding was sparked as a pre-teen spending too much time customizing themes on MySpace.
                     </p>
-                    <p className='text'>
+                    <p className='about-text'>
                         Through my background in Apparel Design I developed an eye for detail and great design, which inform my choices when building beautiful, UX-first websites.
                     </p>
-                    <p className='text'>
+                    <p className='about-text'>
                         Other pleasures include gluten-free cooking, making lots and lots of playlists, and Sudoku. 
                     </p>
                 </Columns.Column>
