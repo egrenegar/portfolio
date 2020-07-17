@@ -4,9 +4,13 @@ import './overlay.css';
 function Overlay(props) {
     return (
         <div className='overlay'>
-            <div className='text'>
-                <p className='name'>{props.name}</p>
-                <hr className='overlay-hr'/>
+            <div className='overlay-text'>
+                <div className='project-heading'>
+                    <p className='project-name'>{props.name}</p>
+                    <p className='description'>{props.description}</p>
+                    <hr className='overlay-hr'/>
+                </div>
+                
                 <p className='technologies'>Notable Technologies:</p>
                 <ul>
                     {props.technologies.map(technology => (
