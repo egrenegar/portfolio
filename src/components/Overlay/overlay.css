@@ -11,9 +11,10 @@
     background-color: white;
 }
   
-.text {
+.overlay-text {
     color: black;
     font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -23,13 +24,26 @@
     text-align: center;
 }
 
-.name {
+.project-heading {
+    width: 65%;
+    margin: 0 auto;
+}
+
+.project-name {
     font-size: 1.5rem;
     font-weight: 400;
+    text-align: center;
+}
+
+.description {
+    font-size: 1rem;
 }
 
 .overlay-hr {
     color: black;
+    border: 1px solid rgb(241, 136, 194);
+    width: 45%;
+    margin: 10px auto;
 }
 
 .technology {
@@ -50,3 +64,8 @@
     font-weight: 600;
 }
 
+@media screen and (max-width: 400px) {
+    .overlay {
+        display: none;
+    }
+}
