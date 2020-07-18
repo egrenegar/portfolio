@@ -7,7 +7,7 @@ function Overlay(props) {
             <div className='overlay-text'>
                 <div className='project-heading'>
                     <p className='project-name'>{props.name}</p>
-                    <p className='description'>{props.description}</p>
+                    <p className='project-description'>{props.description}</p>
                     <hr className='overlay-hr'/>
                 </div>
                 
@@ -19,8 +19,9 @@ function Overlay(props) {
                         </li>
                     ))}
                 </ul>
-                <div className='details'>
-                <a href='#'>Details &gt;</a>
+                <div className='links'>
+                    <span> <a href={props.github} target='_blank' rel='noopener noreferrer'>GitHub &gt;</a></span>
+                    <a href={props.deployed} target='_blank' rel='noopener noreferrer'>Deployed App &gt;</a>
                 </div>
             </div>
         </div>
