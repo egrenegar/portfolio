@@ -2,6 +2,10 @@
     position: relative;
 }
 
+.project-column {
+    flex: none;
+}
+
 #one:hover .overlay {
     opacity: 1;
 }
