@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Columns } from 'react-bulma-components';
 import './ProjectFull.css';
 
@@ -6,20 +7,16 @@ export default function ProjectFull(props) {
     return (
         <Columns>
             <Columns.Column
-                mobile={{
-                    size: 'full',
-                }}
-                desktop={{
-                    size: 'half',
-                }}
-                className='container'
+                className='container project-column'
                 id={props.id}
             >
+            <Link to={`/projects/${props.id}`}>
                 <img
                     src={props.src}
                     alt={props.alt}
                     className='project-photo image'
                 />
+            </Link>
                 {props.children}
             </Columns.Column>
         </Columns>
