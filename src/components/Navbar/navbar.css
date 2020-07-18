@@ -5,8 +5,8 @@
     font-family: 'Josefin Sans', sans-serif;
 }
 
-.logo-div {
-    margin: .5rem 1rem .2rem;
+.navbar-brand {
+    padding-top: .5rem;
 }
 
 .navbar-item > a {
