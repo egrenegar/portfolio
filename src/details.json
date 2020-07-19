@@ -1,0 +1,45 @@
+[
+    {
+        "id": 1,
+        "name": "Asking for a Friend",
+        "description": "Asking for a Friend is a question and answer website that allows users to post questions and others to respond.",
+        "technologies": 
+            [ 
+                "Handlebars.js",
+                "Bulma CSS",
+                "jQuery",
+                "MySQL",
+                "Express"
+            ],
+        "github": "https://github.com/egrenegar/Asking_for_a_friend",
+        "deployed": "https://askingforafriend.herokuapp.com/"
+    },
+    {
+        "id": 2,
+        "name": "Innovation Auto Repair",
+        "description": "This full-stack website was built for a small auto body repair shop based in Texas. Its main function is to allow users to schedule free estimates, and for employees to manage appointments.",
+        "technologies": 
+            [ 
+                "React",
+                "Next.js",
+                "Pure CSS & Flexbox",
+                "JavaScript"
+            ],
+        "github": "https://github.com/egrenegar/Innovation-Auto-Repair",
+        "deployed": "https://innovation-pdr.herokuapp.com/"
+    },
+    {
+        "id": 3,
+        "name": "INTown",
+        "description": "INTown unlocks the discovery of events, outdoor spaces, popular places, and restaurants in Charlotte, NC neighborhoods.",
+        "technologies": 
+            [ 
+                "HTML",
+                "Foundation CSS",
+                "JavaScript",
+                "Google Maps API"
+            ],
+        "github": "https://github.com/egrenegar/INTown",
+        "deployed": "https://graysondeese.github.io/INTown/"
+    }
+]
