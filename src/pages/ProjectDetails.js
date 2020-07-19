@@ -4,21 +4,6 @@ import './projectdetails.css';
 
 const details = require('../details.json');
 
-// const style = {
-//     details: {
-//         width: '75vw',
-//         margin: '2rem auto',
-//         textAlign: 'center',
-//         fontFamily: ['Josefin Sans', 'sans-serif'],
-//     },
-//     hr: {
-//         color: 'black',
-//         border: '1px solid rgb(241, 136, 194)',
-//         width: '25%',
-//         margin: '10px auto'
-//     }
-// }
-
 export default function ProjectDetails(props) {
 
     const id = props.match.params.id - 1;
