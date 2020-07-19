@@ -12,7 +12,7 @@ function Overlay(props) {
                     <hr className='overlay-hr'/>
                 </div>
                 
-                <p className='technologies'>Notable Technologies:</p>
+                <p className='technologies'>Built With:</p>
                 <ul>
                     {props.technologies.map(technology => (
                         <li className='technology'>
