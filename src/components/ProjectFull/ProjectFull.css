@@ -6,15 +6,15 @@
     flex: none;
 }
 
-#one:hover .overlay {
+.afaf:hover .overlay {
     opacity: 1;
 }
 
-#two:hover .overlay {
+.innovation:hover .overlay {
     opacity: 1;
 }
 
-#three:hover .overlay {
+.intown:hover .overlay {
     opacity: 1;
 }
 
