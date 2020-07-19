@@ -1,4 +1,5 @@
 import React from 'react';
+import { Columns } from 'react-bulma-components';
 import './overlay.css';
 
 function Overlay(props) {
@@ -19,10 +20,14 @@ function Overlay(props) {
                         </li>
                     ))}
                 </ul>
-                <div className='links'>
-                    <span> <a href={props.github} target='_blank' rel='noopener noreferrer'>GitHub &gt;</a></span>
-                    <a href={props.deployed} target='_blank' rel='noopener noreferrer'>Deployed App &gt;</a>
-                </div>
+                <Columns>
+                    <Columns.Column className='links'>
+                        <a href={props.github} target='_blank' rel='noopener noreferrer'>GitHub &gt;</a>
+                    </Columns.Column>
+                    <Columns.Column className='links'>
+                        <a href={props.deployed} target='_blank' rel='noopener noreferrer'>Deployed App &gt;</a>
+                    </Columns.Column>
+                </Columns>
             </div>
         </div>
     );
