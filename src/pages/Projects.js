@@ -13,7 +13,8 @@ function Projects() {
             <ProjectFull
                 src={AFAF}
                 alt='Asking For a Friend'
-                id='one'
+                id={1}
+                class='afaf'
             >
                 <Overlay
                     name='Asking for a Friend'
@@ -26,7 +27,8 @@ function Projects() {
             <ProjectFull
                 src={Innovation}
                 alt='Innovation Auto Hail Repair'
-                id='two'
+                id={2}
+                class='innovation'
             >
                 <Overlay
                     name='Innovation Auto Repair'
@@ -37,7 +39,8 @@ function Projects() {
             <ProjectFull
                 src={Intown}
                 alt='INTown'
-                id='three'
+                id={3}
+                class='intown'
             >
                 <Overlay
                     name='INTown'
