@@ -7,7 +7,7 @@ export default function ProjectFull(props) {
     return (
         <Columns>
             <Columns.Column
-                className='container project-column'
+                className={`container project-column ${props.class}`}
                 id={props.id}
             >
             <Link to={`/projects/${props.id}`}>
