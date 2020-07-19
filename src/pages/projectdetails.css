@@ -1,0 +1,51 @@
+.details-column {
+    margin: 0 auto;
+}
+
+.project-details {
+    margin: 4rem auto;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 1.6;
+}
+
+.details-description {
+    font-size: 1.25rem;
+}
+
+.details-hr {
+    border: 1px solid rgb(241, 136, 194);
+    width: 25%;
+    margin: 20px auto;
+}
+
+.details-links {
+    padding: 1rem .5rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.25rem;
+}
+
+.details-links > a {
+    color: black;
+}
+
+.details-links > a:hover {
+    font-weight: 600;
+}
+
+@media screen and (max-width: 400px) {
+    .project-details {
+        margin: 4rem auto 2rem;
+    }
+
+    .details-hr {
+        width: 50%;
+    }
+
+    .details-links {
+        padding: .5rem .5rem;
+    }
+}
+
+
+
