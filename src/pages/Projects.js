@@ -5,7 +5,7 @@ import Footer from '../components/Footer/index';
 import Overlay from '../components/Overlay/index';
 import AFAF from '../img/AFAF_mockup_compressed.png';
 import Intown from '../img/INTown_mockup_compressed.png';
-import Innovation from '../img/InnovationAuto_mockup.png';
+import Innovation from '../img/Innovation_Mockup_v2_compress.png';
 
 function Projects() {
     return (
